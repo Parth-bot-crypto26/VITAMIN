@@ -1,0 +1,1408 @@
+<!DOCTYPE html>
+<!--
+  Author: xxxxxxxx
+  Date  : 06/01/2018
+-->
+<html>
+<body class="hold-transition skin-blue-light sidebar-mini fixed">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12 WhiteBackground">
+				<div class="card mt-5 mb-5 primaryFontStyle">
+					<div class="card-header primaryBorderTop">
+						<strong class="fw-bold h3">Student Grade History</strong>
+					</div>
+					<div class="card-body " id="main-section">
+
+						<form role="form" id="studentGradeView" name="studentGradeView"
+							method="post" autocomplete="off">
+							<input type="hidden" name="authorizedID" id="authorizedID"
+								value="23BET10008" />
+							<div class="col-sm-12">
+								<div>
+									<div>
+										<div class="col-md-12">
+											<div align="center" id="fixedTableContainer"
+												class="fixedTableContainer">
+												<table class="customTable" style="align: center;">
+
+													<tr class="tableHeader">
+														<td>Reg.No.</td>
+														<td>Name</td>
+														<td>Programme and Branch</td>
+														<td>Programme Mode</td>
+														<td>Study System</td>
+														<td>Gender</td>
+														<td>YearJoined</td>
+														<td>Edu Status</td>
+														<td>School</td>
+														<td>Campus</td>
+													</tr>
+													<tr class="tableContent">
+														<td>23BET10008</td>
+
+
+														<td>ANSH LACHHWANI</td>
+														<td>B.Tech. - Computer Science and Engineering (Education Technology)</td>
+														<td>Regular</td>
+														<td>CAL</td>
+														<td>MALE</td>
+														<td>2023</td>
+														<td>Admitted</td>
+														<td>SCOPE</td>
+
+														<td>BPL</td>
+													</tr>
+
+												</table>
+
+											</div>
+											<br />
+										</div>
+										<br />
+
+										<div class="col-md-12">
+											<div align="center" id="fixedTableContainer"
+												class="fixedTableContainer">
+												<table class="customTable" style="align: center;">
+													<tr class="tableHeader">
+														<td colspan="11">Effective Grades <span
+															style="float: right;">
+																<a class="btn btn-primary btn-success"
+																href="javascript:vtopDownload(&#39;examinations/examGradeView/doDownloadStudentHistory&#39;)"><span
+																	class="glyphicon glyphicon-download-alt">&nbsp;Download
+																		History</span></a>
+														</span> 
+														</td>
+													</tr>
+													<tr class="tableHeader">
+														<td style="width: 5%;">Sl.No.</td>
+														<td style="width: 8%;">Course Code</td>
+														<td style="width: 34%;">Course Title</td>
+														<td style="width: 5%;">Course Type</td>
+														<td style="width: 5%;">Credits</td>
+														<td style="width: 5%;">Grade</td>
+														<td style="width: 8%;">Exam Month</td>
+														<td style="width: 10%;">Result Declared</td>
+														<td style="width: 10%;">Course Distribution</td>
+														<td style="width: 5%;">Detail View</td>
+													</tr>
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">1</td>
+															<td style="width: 8%;"
+																class="textAlign-center">ENG1004</td>
+															<td style="width: 34%;">Effective Technical Communication</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LT</td>
+															<td style="width: 5%;" class="textAlign-center">2.0</td>
+															<td style="width: 5%;" class="textAlign-center">A</td>
+															<td style="width: 8%;" class="textAlign-center">Oct-2023</td>
+															<td style="width: 10%;" class="textAlign-center">06-Dec-2023</td>
+															<td style="width: 10%;"
+																class="textAlign-center">UCHSSMC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">2</td>
+															<td style="width: 8%;"
+																class="textAlign-center">HUM1002</td>
+															<td style="width: 34%;">Emotional Intelligence</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LT</td>
+															<td style="width: 5%;" class="textAlign-center">3.0</td>
+															<td style="width: 5%;" class="textAlign-center">B</td>
+															<td style="width: 8%;" class="textAlign-center">Oct-2023</td>
+															<td style="width: 10%;" class="textAlign-center">06-Dec-2023</td>
+															<td style="width: 10%;"
+																class="textAlign-center">UEHSSME</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">3</td>
+															<td style="width: 8%;"
+																class="textAlign-center">CSE0001</td>
+															<td style="width: 34%;">Digital Literacy</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LT</td>
+															<td style="width: 5%;" class="textAlign-center">1.0</td>
+															<td style="width: 5%;" class="textAlign-center">P</td>
+															<td style="width: 8%;" class="textAlign-center">Jan-2024</td>
+															<td style="width: 10%;" class="textAlign-center">14-Mar-2024</td>
+															<td style="width: 10%;"
+																class="textAlign-center">NMC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">4</td>
+															<td style="width: 8%;"
+																class="textAlign-center">CSE1021</td>
+															<td style="width: 34%;">Introduction to Problem Solving and Programming</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LTP</td>
+															<td style="width: 5%;" class="textAlign-center">4.0</td>
+															<td style="width: 5%;" class="textAlign-center">A</td>
+															<td style="width: 8%;" class="textAlign-center">Jan-2024</td>
+															<td style="width: 10%;" class="textAlign-center">11-Feb-2024</td>
+															<td style="width: 10%;"
+																class="textAlign-center">UCSDC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">5</td>
+															<td style="width: 8%;"
+																class="textAlign-center">EEE1001</td>
+															<td style="width: 34%;">Electric Circuits and Systems</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LTP</td>
+															<td style="width: 5%;" class="textAlign-center">4.0</td>
+															<td style="width: 5%;" class="textAlign-center">A</td>
+															<td style="width: 8%;" class="textAlign-center">Jan-2024</td>
+															<td style="width: 10%;" class="textAlign-center">11-Feb-2024</td>
+															<td style="width: 10%;"
+																class="textAlign-center">UCBESC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">6</td>
+															<td style="width: 8%;"
+																class="textAlign-center">MAT1001</td>
+															<td style="width: 34%;">Calculus and Laplace Transforms</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LT</td>
+															<td style="width: 5%;" class="textAlign-center">4.0</td>
+															<td style="width: 5%;" class="textAlign-center">B</td>
+															<td style="width: 8%;" class="textAlign-center">Apr-2024</td>
+															<td style="width: 10%;" class="textAlign-center">23-May-2024</td>
+															<td style="width: 10%;"
+																class="textAlign-center">UCNSC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														<i class="bi bi-chevron-down" style="cursor: pointer;" 
+														id="arraowId_MAT1001"
+														onclick="javascript:toggleDiv(&#39;MAT1001&#39;);"
+														></i>
+															</td>
+														</tr>
+
+														<tr class="tableContent" style="display: none;"
+															id="detailsView_MAT1001">
+															<td colspan="11" align="center">
+																<div align="center">
+																	<table class="customTable-level1"
+																		style="align: center; width: 90%">
+																		<tr class="tableHeader-level1">
+																			<td style="width: 10%;">Course Code</td>
+																			<td style="width: 30%;">Course Title</td>
+																			<td style="width: 10%;">Course Type</td>
+																			<td style="width: 10%;">Credits</td>
+																			<td style="width: 10%;">Grade</td>
+																			<td style="width: 10%;">Exam Month</td>
+																			<td style="width: 10%;">Result Declared</td>
+																		</tr>
+																		
+																			<tr class="tableContent-level1">
+																				<td style="width: 10%;"
+																					class="textAlign-center">MAT1001</td>
+																				<td style="width: 10%;">Calculus and Laplace Transforms</td>
+																				<td style="width: 10%;"
+																					class="textAlign-center">LT</td>
+																				<td style="width: 10%;"
+																					class="textAlign-center">4.0</td>
+																				<td style="width: 10%;" class="textAlign-center">N</td>
+																				<td style="width: 10%;" class="textAlign-center">Jan-2024</td>
+																				<td style="width: 10%;" class="textAlign-center">11-Feb-2024</td>
+																			</tr>
+																		
+																			<tr class="tableContent-level1">
+																				<td style="width: 10%;"
+																					class="textAlign-center">MAT1001</td>
+																				<td style="width: 10%;">Calculus and Laplace Transforms</td>
+																				<td style="width: 10%;"
+																					class="textAlign-center">LT</td>
+																				<td style="width: 10%;"
+																					class="textAlign-center">4.0</td>
+																				<td style="width: 10%;" class="textAlign-center">B</td>
+																				<td style="width: 10%;" class="textAlign-center">Apr-2024</td>
+																				<td style="width: 10%;" class="textAlign-center">23-May-2024</td>
+																			</tr>
+																		
+																	</table>
+																</div>
+															</td>
+														</tr>
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">7</td>
+															<td style="width: 8%;"
+																class="textAlign-center">UHV0001</td>
+															<td style="width: 34%;">Universal Human Values - I</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LT</td>
+															<td style="width: 5%;" class="textAlign-center">0.0</td>
+															<td style="width: 5%;" class="textAlign-center">P</td>
+															<td style="width: 8%;" class="textAlign-center">Jan-2024</td>
+															<td style="width: 10%;" class="textAlign-center">14-Mar-2024</td>
+															<td style="width: 10%;"
+																class="textAlign-center">NMC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">8</td>
+															<td style="width: 8%;"
+																class="textAlign-center">CHY1005</td>
+															<td style="width: 34%;">Introduction to Computational chemistry</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LTP</td>
+															<td style="width: 5%;" class="textAlign-center">4.0</td>
+															<td style="width: 5%;" class="textAlign-center">A</td>
+															<td style="width: 8%;" class="textAlign-center">Apr-2024</td>
+															<td style="width: 10%;" class="textAlign-center">13-Aug-2024</td>
+															<td style="width: 10%;"
+																class="textAlign-center">UCNSC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">9</td>
+															<td style="width: 8%;"
+																class="textAlign-center">CSA2001</td>
+															<td style="width: 34%;">Fundamentals in AI &amp; ML</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LTP</td>
+															<td style="width: 5%;" class="textAlign-center">4.0</td>
+															<td style="width: 5%;" class="textAlign-center">B</td>
+															<td style="width: 8%;" class="textAlign-center">Apr-2024</td>
+															<td style="width: 10%;" class="textAlign-center">13-Aug-2024</td>
+															<td style="width: 10%;"
+																class="textAlign-center">UCBESC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">10</td>
+															<td style="width: 8%;"
+																class="textAlign-center">ENG2005</td>
+															<td style="width: 34%;">Advanced Technical Communication</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LT</td>
+															<td style="width: 5%;" class="textAlign-center">2.0</td>
+															<td style="width: 5%;" class="textAlign-center">A</td>
+															<td style="width: 8%;" class="textAlign-center">Apr-2024</td>
+															<td style="width: 10%;" class="textAlign-center">13-Aug-2024</td>
+															<td style="width: 10%;"
+																class="textAlign-center">UCHSSMC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">11</td>
+															<td style="width: 8%;"
+																class="textAlign-center">MAT2002</td>
+															<td style="width: 34%;">Discrete Mathematics And Graph Theory</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LT</td>
+															<td style="width: 5%;" class="textAlign-center">4.0</td>
+															<td style="width: 5%;" class="textAlign-center">A</td>
+															<td style="width: 8%;" class="textAlign-center">Apr-2024</td>
+															<td style="width: 10%;" class="textAlign-center">13-Aug-2024</td>
+															<td style="width: 10%;"
+																class="textAlign-center">UCNSC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">12</td>
+															<td style="width: 8%;"
+																class="textAlign-center">MEE2014</td>
+															<td style="width: 34%;">Engineering Design and Modelling</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LTP</td>
+															<td style="width: 5%;" class="textAlign-center">4.0</td>
+															<td style="width: 5%;" class="textAlign-center">A</td>
+															<td style="width: 8%;" class="textAlign-center">Apr-2024</td>
+															<td style="width: 10%;" class="textAlign-center">13-Aug-2024</td>
+															<td style="width: 10%;"
+																class="textAlign-center">UCBESC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">13</td>
+															<td style="width: 8%;"
+																class="textAlign-center">PHY1003</td>
+															<td style="width: 34%;">Introduction to Computational Physics</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LTP</td>
+															<td style="width: 5%;" class="textAlign-center">4.0</td>
+															<td style="width: 5%;" class="textAlign-center">B</td>
+															<td style="width: 8%;" class="textAlign-center">Apr-2024</td>
+															<td style="width: 10%;" class="textAlign-center">13-Aug-2024</td>
+															<td style="width: 10%;"
+																class="textAlign-center">UCNSC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">14</td>
+															<td style="width: 8%;"
+																class="textAlign-center">CSA2003</td>
+															<td style="width: 34%;">Digital Logic and Computer Architecture</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LTP</td>
+															<td style="width: 5%;" class="textAlign-center">4.0</td>
+															<td style="width: 5%;" class="textAlign-center">B</td>
+															<td style="width: 8%;" class="textAlign-center">Aug-2024</td>
+															<td style="width: 10%;" class="textAlign-center">04-Oct-2024</td>
+															<td style="width: 10%;"
+																class="textAlign-center">PC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">15</td>
+															<td style="width: 8%;"
+																class="textAlign-center">CSD3009</td>
+															<td style="width: 34%;">DATA STRUCTURES AND ANALYSIS OF ALGORITHMS</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LTP</td>
+															<td style="width: 5%;" class="textAlign-center">4.0</td>
+															<td style="width: 5%;" class="textAlign-center">B</td>
+															<td style="width: 8%;" class="textAlign-center">Aug-2024</td>
+															<td style="width: 10%;" class="textAlign-center">04-Oct-2024</td>
+															<td style="width: 10%;"
+																class="textAlign-center">PC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">16</td>
+															<td style="width: 8%;"
+																class="textAlign-center">CSE2004</td>
+															<td style="width: 34%;">Theory Of Computation And Compiler Design</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LT</td>
+															<td style="width: 5%;" class="textAlign-center">4.0</td>
+															<td style="width: 5%;" class="textAlign-center">A</td>
+															<td style="width: 8%;" class="textAlign-center">Aug-2024</td>
+															<td style="width: 10%;" class="textAlign-center">04-Oct-2024</td>
+															<td style="width: 10%;"
+																class="textAlign-center">PC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">17</td>
+															<td style="width: 8%;"
+																class="textAlign-center">CSE2006</td>
+															<td style="width: 34%;">Programming in Java</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LP</td>
+															<td style="width: 5%;" class="textAlign-center">3.0</td>
+															<td style="width: 5%;" class="textAlign-center">A</td>
+															<td style="width: 8%;" class="textAlign-center">Aug-2024</td>
+															<td style="width: 10%;" class="textAlign-center">04-Oct-2024</td>
+															<td style="width: 10%;"
+																class="textAlign-center">UCSDC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">18</td>
+															<td style="width: 8%;"
+																class="textAlign-center">EXC0001</td>
+															<td style="width: 34%;">EXTRA CURRICULAR ACTIVITIES</td>
+															<td style="width: 5%;"
+																class="textAlign-center">PJ</td>
+															<td style="width: 5%;" class="textAlign-center">1.0</td>
+															<td style="width: 5%;" class="textAlign-center">P</td>
+															<td style="width: 8%;" class="textAlign-center">Aug-2024</td>
+															<td style="width: 10%;" class="textAlign-center">13-Aug-2025</td>
+															<td style="width: 10%;"
+																class="textAlign-center">NMC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">19</td>
+															<td style="width: 8%;"
+																class="textAlign-center">CSE3003</td>
+															<td style="width: 34%;">Operating System</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LTP</td>
+															<td style="width: 5%;" class="textAlign-center">4.0</td>
+															<td style="width: 5%;" class="textAlign-center">A</td>
+															<td style="width: 8%;" class="textAlign-center">Dec-2024</td>
+															<td style="width: 10%;" class="textAlign-center">06-Jun-2025</td>
+															<td style="width: 10%;"
+																class="textAlign-center">PC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">20</td>
+															<td style="width: 8%;"
+																class="textAlign-center">CET2001</td>
+															<td style="width: 34%;">Foundations of Education Technology</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LT</td>
+															<td style="width: 5%;" class="textAlign-center">3.0</td>
+															<td style="width: 5%;" class="textAlign-center">A</td>
+															<td style="width: 8%;" class="textAlign-center">Jan-2025</td>
+															<td style="width: 10%;" class="textAlign-center">16-Apr-2025</td>
+															<td style="width: 10%;"
+																class="textAlign-center">PC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">21</td>
+															<td style="width: 8%;"
+																class="textAlign-center">CET3012</td>
+															<td style="width: 34%;">Gaming for Education</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LP</td>
+															<td style="width: 5%;" class="textAlign-center">3.0</td>
+															<td style="width: 5%;" class="textAlign-center">A</td>
+															<td style="width: 8%;" class="textAlign-center">Jan-2025</td>
+															<td style="width: 10%;" class="textAlign-center">16-Apr-2025</td>
+															<td style="width: 10%;"
+																class="textAlign-center">PE</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">22</td>
+															<td style="width: 8%;"
+																class="textAlign-center">CSE0002</td>
+															<td style="width: 34%;">OPEN SOURCE SOFTWARE (LINUX ADMINISTRATION)</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LT</td>
+															<td style="width: 5%;" class="textAlign-center">2.0</td>
+															<td style="width: 5%;" class="textAlign-center">P</td>
+															<td style="width: 8%;" class="textAlign-center">Jan-2025</td>
+															<td style="width: 10%;" class="textAlign-center">16-Apr-2025</td>
+															<td style="width: 10%;"
+																class="textAlign-center">NMC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">23</td>
+															<td style="width: 8%;"
+																class="textAlign-center">CSE3001</td>
+															<td style="width: 34%;">Database Management Systems</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LTP</td>
+															<td style="width: 5%;" class="textAlign-center">4.0</td>
+															<td style="width: 5%;" class="textAlign-center">A</td>
+															<td style="width: 8%;" class="textAlign-center">Jan-2025</td>
+															<td style="width: 10%;" class="textAlign-center">16-Apr-2025</td>
+															<td style="width: 10%;"
+																class="textAlign-center">PC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">24</td>
+															<td style="width: 8%;"
+																class="textAlign-center">CSE3006</td>
+															<td style="width: 34%;">Computer Networks</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LTP</td>
+															<td style="width: 5%;" class="textAlign-center">4.0</td>
+															<td style="width: 5%;" class="textAlign-center">A</td>
+															<td style="width: 8%;" class="textAlign-center">Jan-2025</td>
+															<td style="width: 10%;" class="textAlign-center">16-Apr-2025</td>
+															<td style="width: 10%;"
+																class="textAlign-center">PC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">25</td>
+															<td style="width: 8%;"
+																class="textAlign-center">CSG2003</td>
+															<td style="width: 34%;">Human Computer Interaction</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LT</td>
+															<td style="width: 5%;" class="textAlign-center">3.0</td>
+															<td style="width: 5%;" class="textAlign-center">A</td>
+															<td style="width: 8%;" class="textAlign-center">Jan-2025</td>
+															<td style="width: 10%;" class="textAlign-center">16-Apr-2025</td>
+															<td style="width: 10%;"
+																class="textAlign-center">UEME</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">26</td>
+															<td style="width: 8%;"
+																class="textAlign-center">DSN2098</td>
+															<td style="width: 34%;">Project Exhibition – I</td>
+															<td style="width: 5%;"
+																class="textAlign-center">PJ</td>
+															<td style="width: 5%;" class="textAlign-center">1.0</td>
+															<td style="width: 5%;" class="textAlign-center">A</td>
+															<td style="width: 8%;" class="textAlign-center">Jan-2025</td>
+															<td style="width: 10%;" class="textAlign-center">16-Apr-2025</td>
+															<td style="width: 10%;"
+																class="textAlign-center">UCPI</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">27</td>
+															<td style="width: 8%;"
+																class="textAlign-center">CET3001</td>
+															<td style="width: 34%;">Educational Data Mining and Learning Analytics</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LTP</td>
+															<td style="width: 5%;" class="textAlign-center">4.0</td>
+															<td style="width: 5%;" class="textAlign-center">S</td>
+															<td style="width: 8%;" class="textAlign-center">Apr-2025</td>
+															<td style="width: 10%;" class="textAlign-center">25-Nov-2025</td>
+															<td style="width: 10%;"
+																class="textAlign-center">PC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">28</td>
+															<td style="width: 8%;"
+																class="textAlign-center">CSG3004</td>
+															<td style="width: 34%;">Augmented and Virtual Reality in Gaming</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LTP</td>
+															<td style="width: 5%;" class="textAlign-center">4.0</td>
+															<td style="width: 5%;" class="textAlign-center">A</td>
+															<td style="width: 8%;" class="textAlign-center">Apr-2025</td>
+															<td style="width: 10%;" class="textAlign-center">25-Nov-2025</td>
+															<td style="width: 10%;"
+																class="textAlign-center">PC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">29</td>
+															<td style="width: 8%;"
+																class="textAlign-center">CSG3008</td>
+															<td style="width: 34%;">3D Modelling and Animation</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LP</td>
+															<td style="width: 5%;" class="textAlign-center">3.0</td>
+															<td style="width: 5%;" class="textAlign-center">S</td>
+															<td style="width: 8%;" class="textAlign-center">Apr-2025</td>
+															<td style="width: 10%;" class="textAlign-center">22-Nov-2025</td>
+															<td style="width: 10%;"
+																class="textAlign-center">PC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">30</td>
+															<td style="width: 8%;"
+																class="textAlign-center">DSN2099</td>
+															<td style="width: 34%;">Project Exhibition – II</td>
+															<td style="width: 5%;"
+																class="textAlign-center">PJ</td>
+															<td style="width: 5%;" class="textAlign-center">1.0</td>
+															<td style="width: 5%;" class="textAlign-center">S</td>
+															<td style="width: 8%;" class="textAlign-center">Apr-2025</td>
+															<td style="width: 10%;" class="textAlign-center">19-Jun-2025</td>
+															<td style="width: 10%;"
+																class="textAlign-center">UCPI</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">31</td>
+															<td style="width: 8%;"
+																class="textAlign-center">MAT3003</td>
+															<td style="width: 34%;">Probability, Statistics and Reliability</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LT</td>
+															<td style="width: 5%;" class="textAlign-center">4.0</td>
+															<td style="width: 5%;" class="textAlign-center">A</td>
+															<td style="width: 8%;" class="textAlign-center">Apr-2025</td>
+															<td style="width: 10%;" class="textAlign-center">25-Nov-2025</td>
+															<td style="width: 10%;"
+																class="textAlign-center">UCNSC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">32</td>
+															<td style="width: 8%;"
+																class="textAlign-center">SST1003</td>
+															<td style="width: 34%;">Professional Communication Skills for Engineers</td>
+															<td style="width: 5%;"
+																class="textAlign-center">P</td>
+															<td style="width: 5%;" class="textAlign-center">1.0</td>
+															<td style="width: 5%;" class="textAlign-center">A</td>
+															<td style="width: 8%;" class="textAlign-center">Apr-2025</td>
+															<td style="width: 10%;" class="textAlign-center">19-Jun-2025</td>
+															<td style="width: 10%;"
+																class="textAlign-center">UCSDC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">33</td>
+															<td style="width: 8%;"
+																class="textAlign-center">CSA3005</td>
+															<td style="width: 34%;">Cloud Computing</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LT</td>
+															<td style="width: 5%;" class="textAlign-center">3.0</td>
+															<td style="width: 5%;" class="textAlign-center">S</td>
+															<td style="width: 8%;" class="textAlign-center">Jun-2025</td>
+															<td style="width: 10%;" class="textAlign-center">22-Nov-2025</td>
+															<td style="width: 10%;"
+																class="textAlign-center">PE</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">34</td>
+															<td style="width: 8%;"
+																class="textAlign-center">CET2006</td>
+															<td style="width: 34%;">Essentials of Instructional Design</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LT</td>
+															<td style="width: 5%;" class="textAlign-center">3.0</td>
+															<td style="width: 5%;" class="textAlign-center">A</td>
+															<td style="width: 8%;" class="textAlign-center">Oct-2025</td>
+															<td style="width: 10%;" class="textAlign-center">22-Jan-2026</td>
+															<td style="width: 10%;"
+																class="textAlign-center">PC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">35</td>
+															<td style="width: 8%;"
+																class="textAlign-center">CHY1006</td>
+															<td style="width: 34%;">Environmental Sustainability</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LT</td>
+															<td style="width: 5%;" class="textAlign-center">2.0</td>
+															<td style="width: 5%;" class="textAlign-center">A</td>
+															<td style="width: 8%;" class="textAlign-center">Oct-2025</td>
+															<td style="width: 10%;" class="textAlign-center">22-Jan-2026</td>
+															<td style="width: 10%;"
+																class="textAlign-center">UCHSSMC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">36</td>
+															<td style="width: 8%;"
+																class="textAlign-center">CSE3015</td>
+															<td style="width: 34%;">AWS Cloud Practitioner</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LTP</td>
+															<td style="width: 5%;" class="textAlign-center">4.0</td>
+															<td style="width: 5%;" class="textAlign-center">A</td>
+															<td style="width: 8%;" class="textAlign-center">Oct-2025</td>
+															<td style="width: 10%;" class="textAlign-center">22-Jan-2026</td>
+															<td style="width: 10%;"
+																class="textAlign-center">PE</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">37</td>
+															<td style="width: 8%;"
+																class="textAlign-center">CSE4001</td>
+															<td style="width: 34%;">Internet and Web Programming</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LTP</td>
+															<td style="width: 5%;" class="textAlign-center">4.0</td>
+															<td style="width: 5%;" class="textAlign-center">A</td>
+															<td style="width: 8%;" class="textAlign-center">Oct-2025</td>
+															<td style="width: 10%;" class="textAlign-center">22-Jan-2026</td>
+															<td style="width: 10%;"
+																class="textAlign-center">PC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">38</td>
+															<td style="width: 8%;"
+																class="textAlign-center">HUM0003</td>
+															<td style="width: 34%;">INDIAN CONSTITUTION</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LT</td>
+															<td style="width: 5%;" class="textAlign-center">2.0</td>
+															<td style="width: 5%;" class="textAlign-center">P</td>
+															<td style="width: 8%;" class="textAlign-center">Oct-2025</td>
+															<td style="width: 10%;" class="textAlign-center">22-Jan-2026</td>
+															<td style="width: 10%;"
+																class="textAlign-center">NMC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">39</td>
+															<td style="width: 8%;"
+																class="textAlign-center">MAT3002</td>
+															<td style="width: 34%;">Applied Linear Algebra</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LT</td>
+															<td style="width: 5%;" class="textAlign-center">3.0</td>
+															<td style="width: 5%;" class="textAlign-center">A</td>
+															<td style="width: 8%;" class="textAlign-center">Oct-2025</td>
+															<td style="width: 10%;" class="textAlign-center">22-Jan-2026</td>
+															<td style="width: 10%;"
+																class="textAlign-center">UCNSC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+														<tr class="tableContent">
+															<td style="width: 5%;" class="textAlign-center">40</td>
+															<td style="width: 8%;"
+																class="textAlign-center">PLA1004</td>
+															<td style="width: 34%;">Competitive Coding Practices</td>
+															<td style="width: 5%;"
+																class="textAlign-center">LP</td>
+															<td style="width: 5%;" class="textAlign-center">3.0</td>
+															<td style="width: 5%;" class="textAlign-center">S</td>
+															<td style="width: 8%;" class="textAlign-center">Oct-2025</td>
+															<td style="width: 10%;" class="textAlign-center">22-Jan-2026</td>
+															<td style="width: 10%;"
+																class="textAlign-center">UCSDC</td>
+															<td style="width: 5%;" class="textAlign-center">
+																
+																
+																	
+														
+															</td>
+														</tr>
+
+														
+
+													
+												</table>
+											</div>
+											<br />
+											<div id="legend" style="color: red;">
+												<ul>
+													<li><span
+														style="font-weight: bold; text-decoration: underline;">N1
+													</span>: Student fails to clear one or more components of a course</li>
+													<li><span
+														style="font-weight: bold; text-decoration: underline;">N2
+													</span>: Student who has been debarred due to lack of attendance</li>
+													<li><span
+														style="font-weight: bold; text-decoration: underline;">N3
+													</span>: Student who has been absent in the Final Assessment Test</li>
+													<li><span
+														style="font-weight: bold; text-decoration: underline;">N4
+													</span>: Student debarred in Final Assessment Test due to
+														indiscipline/malpractice</li>
+												</ul>
+											</div>
+											
+											<br />
+											
+
+											<div align="center"
+												id="fixedTableContainer" class="fixedTableContainer">
+												<table class="customTable" style="align: center;">
+													<tr class="tableHeader">
+														<td colspan="3">Curriculum Details</td>
+													</tr>
+													<tr class="tableHeader">
+														<td>Curriculum Distribution Type</td>
+														<td>Credits Required</td>
+														<td>Credits Earned</td>
+													</tr>
+													<tr class="tableContent">
+														<td><span>Programme Core</span>
+															<span
+															style="color: red;">  
+														</span> </td>
+														<td>55.0</td>
+														<td style="color:red;font-weight:bold;">45.0</td>
+													</tr>
+													<tr class="tableContent">
+														<td><span>Programme Elective</span>
+															<span
+															style="color: red;">  
+														</span> </td>
+														<td>15.0</td>
+														<td style="color:red;font-weight:bold;">10.0</td>
+													</tr>
+													<tr class="tableContent">
+														<td><span>University Core - Natural Science Core</span>
+															<span
+															style="color: red;">  
+														</span> </td>
+														<td>23.0</td>
+														<td style="color:green;font-weight:bold;">23.0</td>
+													</tr>
+													<tr class="tableContent">
+														<td><span>University Core - Basic Engineering Sciences Core</span>
+															<span
+															style="color: red;">  
+														</span> </td>
+														<td>12.0</td>
+														<td style="color:green;font-weight:bold;">12.0</td>
+													</tr>
+													<tr class="tableContent">
+														<td><span>University Core - Skill Development Courses</span>
+															<span
+															style="color: red;">  
+														</span> </td>
+														<td>14.0</td>
+														<td style="color:red;font-weight:bold;">11.0</td>
+													</tr>
+													<tr class="tableContent">
+														<td><span>University Core - Humanities Social Science and Management Core</span>
+															<span
+															style="color: red;">  
+														</span> </td>
+														<td>6.0</td>
+														<td style="color:green;font-weight:bold;">6.0</td>
+													</tr>
+													<tr class="tableContent">
+														<td><span>University Core - Project and Internships</span>
+															<span
+															style="color: red;">  
+														</span> </td>
+														<td>17.0</td>
+														<td style="color:red;font-weight:bold;">2.0</td>
+													</tr>
+													<tr class="tableContent">
+														<td><span>University Elective - Natural Science Electives</span>
+															<span
+															style="color: red;">  
+														</span> </td>
+														<td>6.0</td>
+														<td style="color:red;font-weight:bold;">0.0</td>
+													</tr>
+													<tr class="tableContent">
+														<td><span>University Elective - Multidisciplinary Electives</span>
+															<span
+															style="color: red;">  
+														</span> </td>
+														<td>3.0</td>
+														<td style="color:green;font-weight:bold;">3.0</td>
+													</tr>
+													<tr class="tableContent">
+														<td><span>University Elective - Humanities, Social Sciences and Management Electives</span>
+															<span
+															style="color: red;">  
+														</span> </td>
+														<td>3.0</td>
+														<td style="color:green;font-weight:bold;">3.0</td>
+													</tr>
+													<tr class="tableContent">
+														<td><span>University Elective - Open Electives</span>
+															<span
+															style="color: red;">  
+														</span> </td>
+														<td>6.0</td>
+														<td style="color:red;font-weight:bold;">0.0</td>
+													</tr>
+													<tr class="tableContent">
+														<td><span>Non - Graded Mandatory Courses</span>
+															<span
+															style="color: red;">  
+														</span> </td>
+														<td>9.0</td>
+														<td style="color:red;font-weight:bold;">6.0</td>
+													</tr>
+													<tr class="fixedContent tableContent">
+														<td>Total Credits</td>
+														<td>169.0</td>
+														<td style="color:red;font-weight:bold;">121.0</td>
+													</tr>
+												</table>
+											</div>
+											<br />
+
+											<div align="center"
+												id="fixedTableContainer" class="fixedTableContainer">
+												<table class="customTable" style="align: center;">
+													<tr class="tableHeader">
+														<td colspan="4">Basket Details</td>
+													</tr>
+													<tr class="tableHeader">
+														<td>Basket Title</td>
+														<td>Distribution Type</td>
+														<td>Credits Required</td>
+														<td>Credits Earned</td>
+													</tr>
+													
+												</table>
+											</div>
+
+											<br />
+											<div>
+												<div class=" col-md-12">
+													<div class="box  col-md-12"
+														style="border-bottom: 1px solid orange; border-left: 1px solid orange; border-right: 1px solid orange; border-top: 3px solid orange;">
+														<div class="box-header ">
+															<h3 class="box-title" style="font-weight: bold;">CGPA
+																Details</h3>
+														</div>
+														<div class="box-body table-responsive ">
+															<table class="table table-hover table-bordered"
+																style="border-bottom-color: #b1dfff; border-left-color: #b1dfff; border-right-color: #b1dfff;">
+																<thead style="background-color: #626D71">
+																	<tr
+																		style="color: #fff; font-weight: bold; white-space: nowrap; background-color: orange;">
+																		<td>Credits Registered</td>
+																		<td>Credits Earned</td>
+																		<td>CGPA</td>
+																		<td>S Grades</td>
+																		<td>A Grades</td>
+																		<td>B Grades</td>
+																		<td>C Grades</td>
+																		<td>D Grades</td>
+																		<td>E Grades</td>
+																		<td>F Grades</td>
+																		<td>N Grades</td>
+
+																	</tr>
+																</thead>
+																<tbody>
+
+																	<tr style="font-weight: bold;">
+																		<td>121.0</td>
+																		<td>121.0</td>
+																		<td>8.92</td>
+																		<td>5</td>
+																		<td>24</td>
+																		<td>6</td>
+																		<td>0</td>
+																		<td>0</td>
+																		<td>0</td>
+																		<td>0</td>
+																		<td>0</td>
+
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+												</div>
+
+											</div>
+											<br /> <br />
+											
+
+
+
+
+											
+
+											
+
+
+										</div>
+
+									</div>
+
+
+								</div>
+							</div>
+
+							<script>
+			/*<![CDATA[*/
+
+
+			function doViewExamGrade() {
+				  new ConfirmBox()
+					.withParameters(
+							{
+								submitTo : {
+									url : "examinations/examGradeView/doStudentGradeView",
+									dataform: 'studentGradeView' ,
+								},
+								updateResponseTo : 'main-section',
+							}).call();
+			};
+			function getGradeViewDetails() {
+				var myform = document.getElementById("studentGradeView");
+				var regNo = document.getElementById("regNo").value;
+				var authorizedID = document.getElementById("authorizedID").value;
+				var now = new Date();
+				var csrfName = "_csrf";
+	            var csrfValue = "47e7442c-4772-4830-8684-be815f88526c";
+	            
+				var params = "authorizedID=" + authorizedID + "&x="
+						+ now.toUTCString() + "&regNo=" + regNo+"&"+csrfName+"="+csrfValue;
+				
+				
+				
+				new ConfirmBox()
+				.withParameters(
+						{
+							submitTo : {
+								url : "examinations/examGradeView/getGradeViewDetails",
+								data : params
+							},
+							updateResponseTo : 'main-section',
+						}).call();
+
+				
+				
+			};
+
+
+			
+			function toggleDiv(divId) {
+			    var toggleId = "detailsView_" + divId;
+			    var displaySts = document.getElementById(toggleId).style.display;
+
+			    if (displaySts === 'none') {
+			        var a = document.querySelectorAll("[id*='detailsView_']");
+			        var b = document.querySelectorAll("[id*='arraowId_']");
+			        
+			        for (var i = 0; i < a.length; i++) {
+			            var el = a[i];
+			            el.style.display = 'none';
+			            
+			            var cl = b[i];
+			            cl.className = "bi bi-chevron-down";
+			        }
+
+			        document.getElementById(toggleId).style.display = 'contents';
+			        document.getElementById("arraowId_" + divId).className = "bi bi-chevron-up";
+
+			    } else {
+			        document.getElementById(toggleId).style.display = 'none';
+			        document.getElementById("arraowId_" + divId).className = "bi bi-chevron-down";
+			    }
+			}
+
+			/*]]>*/
+		</script>
+
+						</form>
+
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+{
+    "semesters_available": [
+        {
+            "id": "BL20252605",
+            "name": "Winter Semester 2025-26"
+        },
+        {
+            "id": "BL20252604",
+            "name": "INTERIM SEMESTER 2025-26"
+        },
+        {
+            "id": "BL20252601",
+            "name": "Fall Semester 2025-26"
+        },
+        {
+            "id": "BL20242505",
+            "name": "Winter Semester 2024-25"
+        },
+        {
+            "id": "BL20242504",
+            "name": "INTERIM SEMESTER 2024-25"
+        },
+        {
+            "id": "BL20242501",
+            "name": "Fall Semester 2024-25"
+        },
+        {
+            "id": "BL20232405",
+            "name": "Winter Semester 2023-24"
+        },
+        {
+            "id": "BL20232413",
+            "name": "Fall Inter Semester - II 2023-24"
+        },
+        {
+            "id": "BL20232412",
+            "name": "Fall Inter Semester - I 2023-24"
+        }
+    ],
+    "timetables": {
+        "current_sample_semester": [
+            {
+                "course": "CET3007 - Educational Measurements and Evaluation",
+                "class_id": "BL2025260501046",
+                "slot": "F11+F12",
+                "venue": "AB-319",
+                "faculty": "JAVED KHAN SHEIKH"
+            },
+            {
+                "course": "CSE3005 - Software Engineering",
+                "class_id": "BL2025260500356",
+                "slot": "A21+A22+A23",
+                "venue": "AB02-016",
+                "faculty": "AANJAN KUMAR"
+            },
+            {
+                "course": "CSE3011 - Python Programming",
+                "class_id": "BL2025260500625",
+                "slot": "B14+D21",
+                "venue": "AB02-404",
+                "faculty": "MAHENDRA SINGH "
+            },
+            {
+                "course": "CSE3016 - AWS Solution Architect",
+                "class_id": "BL2025260500400",
+                "slot": "C14+E11+E12",
+                "venue": "LC-207",
+                "faculty": "JYOTI CHAUHAN"
+            },
+            {
+                "course": "MAT2001 - Differential And Difference Equations",
+                "class_id": "BL2025260501071",
+                "slot": "D11+D12",
+                "venue": "AB-531",
+                "faculty": "MOHD TARIQ"
+            },
+            {
+                "course": "PLA1006 - Lateral Thinking",
+                "class_id": "BL2025260500706",
+                "slot": "C11",
+                "venue": "AB02-216",
+                "faculty": "PAT TRAINTER"
+            }
+        ]
+    },
+    "attendance": {
+        "current_sample_semester": [
+            {
+                "course": "CET3007 - Educational Measurements and Evaluation - Lecture and Tutorial  Hours Only",
+                "class_detail": "BL2025260501046 - F11+F12 - AB-319",
+                "attended": "13",
+                "total": "14",
+                "percentage": "93%"
+            },
+            {
+                "course": "CSE3005 - Software Engineering - Lecture and Tutorial ,practical hours only",
+                "class_detail": "BL2025260500356 - A21+A22+A23 - AB02-016",
+                "attended": "21",
+                "total": "21",
+                "percentage": "100%"
+            },
+            {
+                "course": "CSE3011 - Python Programming - Lecture and Practical Hours Only",
+                "class_detail": "BL2025260500625 - B14+D21 - AB02-404",
+                "attended": "12",
+                "total": "14",
+                "percentage": "86%"
+            },
+            {
+                "course": "CSE3016 - AWS Solution Architect - Lecture and Tutorial ,practical hours only",
+                "class_detail": "BL2025260500400 - C14+E11+E12 - LC-207",
+                "attended": "21",
+                "total": "21",
+                "percentage": "100%"
+            },
+            {
+                "course": "MAT2001 - Differential And Difference Equations - Lecture and Tutorial  Hours Only",
+                "class_detail": "BL2025260501071 - D11+D12 - AB-531",
+                "attended": "7",
+                "total": "7",
+                "percentage": "100%"
+            },
+            {
+                "course": "PLA1006 - Lateral Thinking - Lecture and Tutorial  Hours Only",
+                "class_detail": "BL2025260500706 - C11 - AB02-216",
+                "attended": "5",
+                "total": "7",
+                "percentage": "72%"
+            }
+        ]
+    }
+}

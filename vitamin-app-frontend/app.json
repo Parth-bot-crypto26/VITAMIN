@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "vitamin-app",
+    "slug": "vitamin-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "scheme": "vitaminapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+  "bundler": "metro",
+  "output": "single",
+  "favicon": "./assets/images/favicon.png"
+}},
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
